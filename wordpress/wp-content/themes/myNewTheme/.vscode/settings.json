@@ -1,0 +1,6 @@
+{
+    "liveSassCompile.settings.includeItems": [
+        "myNewTheme/css/style.sass"
+    ],
+    "liveSassCompile.settings.generateMap":false
+}

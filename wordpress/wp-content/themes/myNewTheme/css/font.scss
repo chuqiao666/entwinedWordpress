@@ -1,0 +1,26 @@
+.font{
+    &-white{
+        color: white;
+        h1,h2,h3,h4,h5,h6,p,i,b,strong{
+            color: white;
+        }
+
+    }
+}
+@font-face {
+	font-family: 'Bebas-Neue-Bold';
+    // src: url('../fonts/BebasNeue-Bold.otf') format('opentype'), url('../fonts/BebasNeue-Bold.ttf') format('truetype');
+    src: url('../fonts/BebasNeue-Bold.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Assistant';
+    src: url('../fonts/Assistant/Assistant-Light.ttf') format('truetype');
+    
+}
+@font-face{
+    font-family: 'Assistant-bold';
+    src: url('../fonts/Assistant/Assistant-Bold.ttf') format('truetype');
+    
+}

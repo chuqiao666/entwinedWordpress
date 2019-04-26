@@ -1,0 +1,67 @@
+header {
+  background: $dark-blue;
+
+
+
+
+  .container {
+    padding: 0;
+    height: 60px;
+
+    .top-nav {
+      .entwined-logo {
+        img {
+          height: 60%;
+          margin: 10px 0 0 0px;
+        }
+      }
+      .header-nav {
+        .menu-top-container {
+          text-align: center;
+          .menu {
+            li {
+              display: inline-block;
+              padding: 20px;
+              position: relative;
+              a {
+                color: #fff !important;
+              }
+              .sub-menu {
+                display: none;
+                position: absolute;
+                top: 60px;
+                left: 10px;
+                z-index: 99;
+                width: 150%;
+                background: #fff;
+                padding: 0;
+                li {
+                  padding: 5px 0 5px 5px;
+                  display:block;
+                  text-align: left;
+
+                  a {
+                    color: #000 !important;
+                  }
+                }
+              }
+              &:hover {
+                .sub-menu {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+      .freeQuoteBtn{
+        text-align: right;
+          button{
+            margin-top: 15px;
+            width: 150px;
+            padding: 5px 0;
+          }
+      }
+    }
+  }
+}

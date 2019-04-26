@@ -1,0 +1,50 @@
+.banner_images {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  width: 100%;
+
+  .banner_image {
+    position: absolute;
+    width: 200vw;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+
+    img {
+      float: left;
+      width: 100vw;
+      height: auto;
+      padding: 0;
+    }
+  }
+  .pCon {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    p {
+      padding: 0 15%;
+      color: #fff;
+      font-size: 4rem;
+
+      margin: auto;
+      text-align: center;
+    }
+  }
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}

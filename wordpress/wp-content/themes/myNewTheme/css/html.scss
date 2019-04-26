@@ -1,0 +1,25 @@
+body{
+    font-family: 'Assistant';
+
+}
+h1{
+    font-family: 'Bebas-Neue-Bold';
+
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 20px;
+}
+button{
+    background: $light-blue;
+    color: #fff;
+    border: none;
+ 
+    border-radius: 50px;
+    span{
+        padding:5% 10%;
+
+    }
+}
